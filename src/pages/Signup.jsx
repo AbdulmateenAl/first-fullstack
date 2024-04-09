@@ -1,17 +1,17 @@
 import React from 'react'
 
-const Login = () => {
+const Signup = () => {
   return (
     <>
     <div className='flex justify-center items-center h-screen w-screen bg-blue-500'>
         <div className='flex flex-row bg-blue-300 rounded-3xl max-w-xl shadow-lg p-5'>
           <div className='px-5'>
             <form className='flex flex-col space-y-4'>
-              <h1 className='font-bold text-2xl'>Log In</h1>
+              <h1 className='font-bold text-2xl'>SignUp</h1>
+              <p className='font-thin text-sm'>If You Are Already A Member, Easily Login</p>
               <input className='p-1 rounded-xl border' type="email" placeholder='Email' />
-              <input className='p-1 rounded-xl border' border type="password" placeholder='Password' />
-              <button className='bg-blue-700 p-2 rounded-full text-white hover:scale-105 duration-150'>Log In</button>
-              <p>Don't have an account? SignUp</p>
+              <input className='p-1 rounded-xl border' type="password" placeholder='Password' />
+              <button className='bg-blue-700 p-2 rounded-full text-white hover:scale-105 duration-150'>Sign Up</button>
             </form>
             <div className='grid grid-cols-3 justify-center items-center mt-4'>
                 <hr className='border-gray-500'/>
@@ -33,4 +33,4 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Signup
